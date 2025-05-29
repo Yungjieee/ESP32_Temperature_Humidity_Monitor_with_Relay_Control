@@ -202,7 +202,7 @@ class _SensorPageState extends State<SensorPage> {
 
     _refreshTimer = Timer.periodic(const Duration(seconds: 5), (timer) {
       fetchSensorData();
-      fetchThresholds();
+      // fetchThresholds();
       fetchLastRelayOnTime();
     });
   }

@@ -138,7 +138,6 @@ void getDHT() {
     String status;
     String relayStatus;
 
-
     // if (temp > 35 || hum > 80) {
     if (temp > temp_threshold || hum > hum_threshold) {
       digitalWrite(RELAY_PIN, HIGH);    // Turn ON relay
